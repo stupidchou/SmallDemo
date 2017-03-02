@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2C59771E66B7F500F5B95D /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C59761E66B7F500F5B95D /* MyVC.m */; };
+		4F2C597A1E66B83600F5B95D /* NSColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C59791E66B83600F5B95D /* NSColor+ColorExtensions.m */; };
 		4FCB5CF11E6678CF009E9FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB5CF01E6678CF009E9FD5 /* AppDelegate.m */; };
 		4FCB5CF41E6678CF009E9FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB5CF31E6678CF009E9FD5 /* main.m */; };
 		4FCB5CF71E6678CF009E9FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB5CF61E6678CF009E9FD5 /* ViewController.m */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F2C59751E66B7F500F5B95D /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		4F2C59761E66B7F500F5B95D /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		4F2C59781E66B83600F5B95D /* NSColor+ColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+ColorExtensions.h"; sourceTree = "<group>"; };
+		4F2C59791E66B83600F5B95D /* NSColor+ColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+ColorExtensions.m"; sourceTree = "<group>"; };
 		4FCB5CEC1E6678CF009E9FD5 /* SmallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCB5CEF1E6678CF009E9FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FCB5CF01E6678CF009E9FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 				4FCB5CF01E6678CF009E9FD5 /* AppDelegate.m */,
 				4FCB5CF51E6678CF009E9FD5 /* ViewController.h */,
 				4FCB5CF61E6678CF009E9FD5 /* ViewController.m */,
+				4F2C59751E66B7F500F5B95D /* MyVC.h */,
+				4F2C59761E66B7F500F5B95D /* MyVC.m */,
+				4F2C59781E66B83600F5B95D /* NSColor+ColorExtensions.h */,
+				4F2C59791E66B83600F5B95D /* NSColor+ColorExtensions.m */,
 				4FCB5CF81E6678CF009E9FD5 /* Assets.xcassets */,
 				4FCB5CFA1E6678CF009E9FD5 /* Main.storyboard */,
 				4FCB5CFD1E6678CF009E9FD5 /* Info.plist */,
@@ -272,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2C59771E66B7F500F5B95D /* MyVC.m in Sources */,
 				4FCB5CF71E6678CF009E9FD5 /* ViewController.m in Sources */,
 				4FCB5CF41E6678CF009E9FD5 /* main.m in Sources */,
+				4F2C597A1E66B83600F5B95D /* NSColor+ColorExtensions.m in Sources */,
 				4FCB5CF11E6678CF009E9FD5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				4FCB5D181E6678CF009E9FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FCB5D191E6678CF009E9FD5 /* Build configuration list for PBXNativeTarget "SmallDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				4FCB5D1B1E6678CF009E9FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FCB5D1C1E6678CF009E9FD5 /* Build configuration list for PBXNativeTarget "SmallDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				4FCB5D1E1E6678CF009E9FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
